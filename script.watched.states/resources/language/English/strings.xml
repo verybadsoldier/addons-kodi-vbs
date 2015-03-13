@@ -1,0 +1,34 @@
+<strings>
+	<string id="30000">XML-file path:</string>
+	
+	<string id="30200">Export Watched States</string>
+	<string id="30201">Import Watched States</string>
+	<string id="30203">Reset All Watched States</string>
+	<string id="30202">Select an action</string>
+	
+	<string id="30300">Overwrite File</string>
+	<string id="30301">The watched export file exists.</string>
+	<string id="30302">Do you want to overwrite it?</string>
+	<string id="30310">Export done!</string>
+	<string id="30311"> item(s) were found.</string>
+	<string id="30314"> watched item(s) were exported.</string>
+	
+	<string id="30400">Importing</string>
+	<string id="30401">Initializing...</string>	
+	<string id="30410">Progress...         </string>
+	<string id="30420">Import done!</string>
+	<string id="30421"> item(s) successfully imported, </string>
+	<string id="30422"> item(s) could not be found.</string>
+	<string id="30423"> item(s) skipped cause they were already there.</string>
+	
+	<string id="30500">Importing</string>
+	<string id="30510"></string>
+	<string id="30520">Watched data file not found!</string>
+	<string id="30530">Check path in add-on settings.</string>
+	
+	<string id="30600">Watched States Reset</string>
+	<string id="30601">Really reset ALL watched states in your database?</string>
+	<string id="30610">Resetting</string>
+	<string id="30611">Reset done!</string>
+	<string id="30612"> item(s) successfully resetted.</string>
+</strings>

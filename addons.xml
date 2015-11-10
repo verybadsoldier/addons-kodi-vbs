@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon
-  id="openelec.recover.net.after.sleep"
-  name="Recover Network After Sleep"
-  version="1.0.1"
-  provider-name="devkid">
-  <extension point="xbmc.python.script" library="default.py"></extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-	<summary>A system.d script to recover network after sleep</summary>
-	<description>Checks network and recovers it when it does not come up in time.</description>
-    <license>GPL 2.0</license>
-  </extension>
-</addon>
-
 <addon id="script.reliableresume"
     name="Reliable Resume" version="1.2" provider-name="devkid/stanley87">
   <requires>

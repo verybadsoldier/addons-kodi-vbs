@@ -2,7 +2,7 @@
 <addon 
   id="openelec.recover.net.after.sleep"
   name="Recover Network After Sleep"
-  version="1.0.0"
+  version="1.0.1"
   provider-name="devkid">
   <extension point="xbmc.python.script" library="default.py"></extension> 
   <extension point="xbmc.addon.metadata">

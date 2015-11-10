@@ -1,0 +1,28 @@
+#!/bin/bash
+
+DELAY=10
+SERVICE_NAME=ethernet_80ee731fe6df_cable
+
+case "$1" in
+  post)
+    systemd-run ./$0 exec-check
+    ;;
+  pre)
+    ;;
+  exec-check)
+    while true; do
+        sleep $DELAY
+        IPLINE=$(ip addr show eth0 | grep inet)
+        IPSEG=$(echo $IPLINE | awk '{print $2}' | cut -f1 -d'.')
+        if [ "$IPSEG" != "192" ]; then
+          echo "Broken: $IPLINE" >> /var/run/checknet
+
+          connmanctl disconnect $SERVICE_NAME
+          connmanctl connect $SERVICE_NAME
+        else
+          echo "OK: $IPLINE" >> /var/run/checknet
+          break
+        fi
+    done
+    ;;
+esac

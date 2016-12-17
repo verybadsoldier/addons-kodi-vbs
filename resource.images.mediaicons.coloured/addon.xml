@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="resource.images.mediaicons.coloured" name="Media Icons Pack for Aeon MQ 7 - Coloured" version="0.0.7" provider-name="Devilshura/MarcosQui">
+	<extension point="kodi.resource.images" compile="true" type="mediaicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Media icons pack for Aeon MQ 7 - coloured</summary>
+		<summary lang="pt_br">Pacote de etiquetas de mídia para Aeon MQ 7- colorido</summary>
+		<description lang="en">Media icons pack - coloured - Compatible with skin Aeon MQ 7.</description>
+		<description lang="pt_br">Pacote de etiquetas de mídia - Compatível com a skin Aeon MQ 7.</description>			
+		<platform>all</platform>
+	</extension>
+</addon>

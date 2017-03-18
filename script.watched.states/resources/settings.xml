@@ -1,3 +1,0 @@
-<settings>	
-	<setting id="path" type="folder" source="folder" label="30000" default="special://profile/" />
-</settings>

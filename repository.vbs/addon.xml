@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.vbs" name="vbs' Kodi Addons" version="2.0.0" provider-name="vbs">
+<addon id="repository.vbs" name="vbs' Kodi Addons" version="3.0.0" provider-name="vbs">
 	<extension point="xbmc.addon.repository" name="vbs' Kodi Addons">
-		<info compressed="false">https://raw.githubusercontent.com/verybadsoldier/addons-kodi-vbs/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/verybadsoldier/addons-kodi-vbs/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/verybadsoldier/addons-kodi-vbs/master/</datadir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://raw.githubusercontent.com/verybadsoldier/addons-kodi-vbs/master/leia/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/verybadsoldier/addons-kodi-vbs/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/verybadsoldier/addons-kodi-vbs/master/leia/</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="21.0.0">
+			<info compressed="false">https://raw.githubusercontent.com/verybadsoldier/addons-kodi-vbs/master/nexus/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/verybadsoldier/addons-kodi-vbs/master/nexus/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/verybadsoldier/addons-kodi-vbs/master/nexus/</datadir>
+			<hashes>false</hashes>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>vbs's Kodi Addons</summary>
